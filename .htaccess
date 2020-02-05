@@ -1,0 +1,24 @@
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [L,R=301]
+Options +MultiViews
+DirectoryIndex index.html index.xml
+ErrorDocument 404 /404.html
+<IfModule mod_deflate.c>
+	<IfModule mod_filter.c>
+		SetOutputFilter DEFLATE
+		AddOutputFilterByType DEFLATE application/* text/* font/* image/x-icon image/svg+xml
+	</IfModule>
+</IfModule>
+<IfModule mod_headers.c>
+	Header set Content-Security-Policy "default-src 'none'; style-src 'self'; font-src 'self'; img-src 'self'; block-all-mixed-content; form-action 'none'; base-uri 'none'; frame-ancestors 'none';"
+	Header set X-Content-Type-Options nosniff
+	Header set X-Frame-Options deny
+	Header set X-XSS-Protection "1; mode=block"
+	Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+	Header set Referrer-Policy same-origin
+	Header set X-Clacks-Overhead: "GNU Terry Pratchett"
+	Header set Feature-Policy "autoplay: 'none'; geolocation 'none'; midi 'none'; notifications 'none'; push 'none'; sync-xhr 'none'; microphone 'none'; camera 'none'; magnetometer 'none'; gyroscope 'none'; speaker 'none'; vibrate 'none'; fullscreen 'none'; payment 'none'; vr: 'none'; accelerometer: 'none'; ambient-light-sensor: 'none'; encrypted-media: 'none'; picture-in-picture: 'none'; usb: 'none'"
+</IfModule>
