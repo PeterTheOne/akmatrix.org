@@ -1,48 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   id="svg3719"
-   version="1.1"
-   viewBox="0 0 26.458333 26.458334"
-   height="100"
-   width="100">
-  <defs
-     id="defs3713" />
-  <metadata
-     id="metadata3716">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     transform="translate(-2.0316217,-269.95108)"
-     id="layer1">
-    <rect
-       y="269.95108"
-       x="2.0316217"
-       height="26.458334"
-       width="26.458334"
-       id="rect4528"
-       style="fill:#005277;fill-opacity:1;stroke-width:0.21650018" />
-    <text
-       id="text4540"
-       y="293.11591"
-       x="6.2828698"
-       style="font-style:normal;font-weight:normal;font-size:50.79999924px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"><tspan
-         style="font-size:25px;fill:#ffffff;stroke-width:0.26458332"
-         y="292"
-         x="7"
-         id="tspan4538">∴</tspan></text>
+<svg xmlns="http://www.w3.org/2000/svg" id="svg839" version="1.1" viewBox="0 0 100 100" height="20" width="20">
+  <path fill="#00A86B" id="bg" d="M0 0h100v100H0z"/>
+  <g id="text837" aria-label="x" font-size="125" font-family="Vollkorn" dominant-baseline="middle" text-anchor="middle" fill="#fff">
+    <path id="path4589" d="M78.28 73.63q.63 1.62.63 5.25-5.13-.25-13.13-.25-9.5 0-14.37.25 0-3.75.5-5.25 2.75-.13 4.12-.75 1.38-.63 1.38-2 0-1.63-2.25-5l-7.13-10.63-5.25 7.63q-3.25 4.87-3.25 7.5 0 3.25 4.38 3.25.75 1.87.75 5.25-4.63-.25-13.13-.25-5.25 0-10.37.25 0-3.63.75-5.25 3.5-.25 6.5-2.5t7.5-8.63l8.75-12.13q-4.75-6.87-9.5-13.12-3.88-5.13-5.75-7.25-1.75-2.13-3.13-2.88-1.37-.75-3.37-1-.88-1.87-.88-5 7.25.25 13.13.25 10.12 0 14.37-.25 0 1.5-.62 5-2.63.13-4 .75-1.25.5-1.25 1.88 0 1.88 3.37 6.63 1.63 2 5.63 7.62l5-7.63q3-4.5 3-6.62 0-1.25-1.13-1.88-1-.62-3.25-.75-.75-1.75-.75-5 6.25.25 11.13.25 5.25 0 10.5-.25 0 2.25-.75 5-3 .25-5.13 1.88-2 1.5-5.75 6.75l-9.25 13 11.25 15.63q4.13 6 6.25 8.12 2.13 2 4.5 2.13z" font-size="125" font-family="Vollkorn" dominant-baseline="middle" text-anchor="middle" fill="#fff"/>
   </g>
 </svg>
